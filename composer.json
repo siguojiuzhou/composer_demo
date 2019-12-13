@@ -1,0 +1,20 @@
+{
+    "name": "jiuzhou/composer_demo",
+    "description": "test的demo包",
+    "type": "library",
+    "require": {
+        "php": ">=5.4"
+    },
+    "authors": [
+        {
+            "name": "siguojiuzhou",
+            "email": "yuch918@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Jiuzhou\\": "src/"
+        }
+    }
+}
